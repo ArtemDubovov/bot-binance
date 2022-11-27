@@ -91,27 +91,36 @@ function App() {
 
   return (
     <div className="App">
-      <h3>favorite currancy</h3>
-      <ul>
-        {favoriteCurrancy.map(curr => 
-          <li key={curr}>{curr} - {requstCurrency[curr]}{!SAVE_CURRANCY.includes(curr) && <button onClick={() => deleteFavCurr(curr)}>delete</button>}</li>
-        )}
-      </ul>
-      <h3>balance</h3>
-      <ul>
-        {balance.map(el => 
-          (Math.ceil(+el[Object.keys(el)[0]].available) !== 0 && Math.ceil(+el[Object.keys(el)[0]].onOrder) !== 0) && <li key={Object.keys(el)[0]}>{[Object.keys(el)[0]]} - {el[Object.keys(el)[0]].available} - {el[Object.keys(el)[0]].onOrder}</li>  
-        )}
-      </ul>
+      <div className='block-info'>
+        <section className='section-info'>
+          <h3>FAVOURITE CURRENCY</h3>
+          <form className='customForm'>
+            <input className='customInput' value={valueFavoriteCurrancy} onChange={(e) => setValueFavoriteCurrancy(e.target.value)} placeholder='Add favorite currancy'/>
+            <button className='customButton' onClick={updateFavCurr}>Add currancy</button>
+          </form>
+          <ul className='list'>
+            {favoriteCurrancy.map(curr => 
+              <li key={curr}>{curr} - {requstCurrency[curr]}{!SAVE_CURRANCY.includes(curr) && <button className='btn-delete' onClick={() => deleteFavCurr(curr)}>Delete</button>}</li>
+            )}
+          </ul>
+        </section>
+        <section  className='section-info'>
+          <h3>BALANCE</h3>
+          <ul className='list'>
+            {balance.map(el => 
+              (Math.ceil(+el[Object.keys(el)[0]].available) !== 0 && Math.ceil(+el[Object.keys(el)[0]].onOrder) !== 0) && <li key={Object.keys(el)[0]}>{[Object.keys(el)[0]]} - {el[Object.keys(el)[0]].available} - {el[Object.keys(el)[0]].onOrder}</li>  
+            )}
+          </ul>
+        </section>
+      </div>
+      
+      
       {/* <select>
         {allCurrancy.data.map(el =>
           <option>el</option>  
         )}
       </select> */}
-      <form>
-        <input value={valueFavoriteCurrancy} onChange={(e) => setValueFavoriteCurrancy(e.target.value)} placeholder='Add favorite currancy'/>
-        <button onClick={updateFavCurr}>Add currancy</button>
-      </form>
+
     </div>
   );
 }

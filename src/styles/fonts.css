@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Muller;
+    src: url('./Muller/Fontfabric\ -\ MullerBlack.otf') format(opentype);
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Muller;
+    src: url('./Muller/Fontfabric\ -\ MullerBlackItalic.otf') format(opentype);
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: Muller;
+    src: url('./Muller/Fontfabric\ -\ MullerBold.otf') format(opentype);
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Muller;
+    src: url('./Muller/Fontfabric\ -\ MullerBoldItalic.otf') format(opentype);
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: Muller;
+    src: url('./Muller/Fontfabric\ -\ MullerExtraBold.otf') format(opentype);
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Muller;
+    src: url('./Muller/Fontfabric\ -\ MullerExtraBoldItalic.otf') format(opentype);
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: Muller;
+    src: url('./Muller/Fontfabric\ -\ MullerHeavy.otf') format(opentype);
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Muller;
+    src: url('./Muller/Fontfabric\ -\ MullerHeavyItalic.otf') format(opentype);
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: Muller;
+    src: url('./Muller/Fontfabric\ -\ MullerLight.otf') format(opentype);
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Muller;
+    src: url('./Muller/Fontfabric\ -\ MullerLightItalic.otf') format(opentype);
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: Muller;
+    src: url('./Muller/Fontfabric\ -\ MullerMedium.otf') format(opentype);
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Muller;
+    src: url('./Muller/Fontfabric\ -\ MullerMediumItalic.otf') format(opentype);
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: Muller;
+    src: url('./Muller/Fontfabric\ -\ MullerRegular.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Muller;
+    src: url('./Muller/Fontfabric\ -\ MullerRegularItalic.otf') format(opentype);
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: Muller;
+    src: url('./Muller/Fontfabric\ -\ MullerThin.otf') format(opentype);
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Muller;
+    src: url('./Muller/Fontfabric\ -\ MullerThinItalic.otf') format(opentype);
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: Muller;
+    src: url('./Muller/Fontfabric\ -\ MullerUltraLight.otf') format(opentype);
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Muller;
+    src: url('./Muller/Fontfabric\ -\ MullerUltraLightItalic.otf') format(opentype);
+    font-weight: 200;
+    font-style: italic;
+  }
